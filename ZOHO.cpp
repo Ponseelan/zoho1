@@ -15,7 +15,7 @@ for(int j=0;j<n-i;j++)
 
 for(int k=0;k<n;k++,print++)
     {
-    cout<<print;
+    cout<<print<<" ";
     }
     print--;
     cout<<endl;
@@ -28,7 +28,7 @@ for(int j=0;j<n-i;j++)
 
 for(int k=0;k<n;k++,print--)
     {
-    cout<<print;
+    cout<<print<<" ";
     }
     cout<<endl;
     print = print +n;
