@@ -21,12 +21,12 @@ for(int k=0;k<n;k++,print++)
     cout<<endl;
     print = print +n;
     i++;
-for(int j=0;j<n-i;j++)
+for(int j=0;j<n-i && i<=n;j++)
     {
     cout<<" ";
     }
 
-for(int k=0;k<n;k++,print--)
+for(int k=0;k<n && i<=n;k++,print--)
     {
     cout<<print<<" ";
     }
